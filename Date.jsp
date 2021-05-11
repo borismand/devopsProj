@@ -8,7 +8,7 @@
 <title>Tomcat Monitoring BorisM</title>
 </head>
 <body>
-<h1>This is the second home task for DevOps course</h1>
+<h1>This is the final project for DevOps course</h1>
 <h3>Test relative path</h3>
 <h1>
 Today's date: <%= (new java.util.Date()).toLocaleString()%>
