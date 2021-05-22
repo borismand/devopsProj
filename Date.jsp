@@ -10,7 +10,7 @@
 <body>
 <h1>This is the final project for DevOps course</h1>
 <h1>
-Today's date: <%= (new java.util.Date()).toLocaleString()%>
+Today's date: <%= (new java.utilDate()).toLocaleString()%>
 </h1
 </body>
 </html>
