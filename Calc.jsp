@@ -1,18 +1,21 @@
 <html>
-      <title>DevOps Project </title>
+      <title>Sample Example </title>
 <body>
-      <h1> <center> DevOps Grade Calculator </center> </h1>
-      <b>Get a 100</b>
+      <h1> <center> Example of JSP </center> </h1>
+      <b> Mathematics</b>
       <hr>
       <form method="post" action="a.jsp">
 <font size=5 face="Times New Roman">
       <input type="radio" name="a1" value="add" checked>Addition</input><br>
+      <input type="radio" name="a1" value="mul" >Multiplication</input><br>
+      <input type="radio" name="a1" value="div" >Division</input><br>
 </font>
 <br><br>
-Enter Points For Home Tasks (Max 30) &nbsp &nbsp &nbsp<input type="text" name="t1" value=""><br>
-Enter Points For Participation (Max 20) &nbsp<input type="text" name="t2" value=""><br>
-Enter Points For Project  (Max 50) &nbsp<input type="text" name="t3" value=""><br>
+Enter first Value &nbsp &nbsp &nbsp<input type="text" name="t1" value=""><br>
+Enter second Value &nbsp<input type="text" name="t2" value=""><br>
 <input type="submit" name="result">
       </form>
 </body>
 </html>
+
+
