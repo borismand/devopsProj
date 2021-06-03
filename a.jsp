@@ -2,21 +2,20 @@
 <%@ page import="java.lang.*"%>
 <html>
 <body>
-<H1><center>Result for <%=request.getParameter("a1")%></center></H1>
 <%
 int i=Integer.parseInt(request.getParameter("t1"));
 int j=Integer.parseInt(request.getParameter("t2"));
-int k=0;
+int k=Integer.parseInt(request.getParameter("t3"));
+int l=0;
 String str=request.getParameter("a1");
 
 if(str.equals("add"))
-  k=i+j;
+  l=i+j+k;
 if(str.equals("mul"))
   k=i*j;
 if(str.equals("div"))
   k=i/j;
 %>
-Result is <%=k%>
+<H1><center>Galia's and Boris's Final Grade Is <%=l%>!!!</center></H1>
 </body>
 </html>
-
